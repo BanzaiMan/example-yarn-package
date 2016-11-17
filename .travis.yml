@@ -12,6 +12,13 @@ node_js:
 matrix:
   allow_failures:
     - node_js: '0.12'
+    - os: osx
+      node_js: '4'
+      osx_image: xcode8.1
+  include:
+    - os: osx
+      node_js: '4'
+      osx_image: xcode8.1
 
 cache: yarn
 
