@@ -17,10 +17,10 @@ matrix:
     - os: osx
       node_js: '4'
       osx_image: xcode8.1
-  include:
     - os: osx
       node_js: '4'
-      osx_image: xcode8.1
+  include:
+    - os: osx
 
 cache: yarn
 
